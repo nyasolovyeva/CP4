@@ -1,7 +1,7 @@
 N = int(input("В ведите размерность массива:"))
 D = [0] * N #заполнение массива нулями
 for i in range (N):
-    D[i] = float(input())
+    D[i] = float(input("Введите элемент массива: "))
 print (D)
 max_number = D[0]
 imax = 0
